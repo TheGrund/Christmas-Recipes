@@ -54,6 +54,14 @@
             list-style-type: square;
             padding-left: 20px;
         }
+        .recipe img {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
         footer {
             background-color: #c62828;
             color: #fff;
@@ -74,11 +82,13 @@
         <a href="#roast">Holiday Roast</a>
         <a href="#eggnog">Classic Eggnog</a>
         <a href="#pie">Pumpkin Pie</a>
+        <a href="#Secret Recipe">Secret Recipe</a>
     </nav>
     <div class="container">
         <!-- Recipe 1 -->
         <div class="recipe" id="cookies">
             <h2>1. Christmas Sugar Cookies</h2>
+            <img src="Christmas Cookies.jpg" alt="Christmas Sugar Cookies" title="Christmas Sugar Cookies">
             <p>Decorate these delightful cookies to match your holiday spirit!</p>
             <h3>Ingredients:</h3>
             <ul>
@@ -98,6 +108,7 @@
         <!-- Recipe 2 -->
         <div class="recipe" id="cider">
             <h2>2. Spiced Apple Cider</h2>
+            <img src="Apple Cider.jpg" alt="Spiced Apple Cider" title="Spiced Apple Cider">
             <p>Warm up with this aromatic drink on a chilly Christmas evening.</p>
             <h3>Ingredients:</h3>
             <ul>
@@ -113,6 +124,7 @@
         <!-- Recipe 3 -->
         <div class="recipe" id="roast">
             <h2>3. Holiday Herb-Crusted Roast Beef</h2>
+            <img src="Christmas Roast.jpg" alt="Holiday Herb-Crusted Roast Beef" title="Holiday Herb-Crusted Roast Beef">
             <p>A centerpiece worthy of your Christmas feast!</p>
             <h3>Ingredients:</h3>
             <ul>
@@ -129,6 +141,7 @@
         <!-- Recipe 4 -->
         <div class="recipe" id="eggnog">
             <h2>4. Classic Eggnog</h2>
+            <img src="Eggnog.jpg" alt="Classic Eggnog" title="Classic Eggnog">
             <p>This creamy delight is a holiday must-have!</p>
             <h3>Ingredients:</h3>
             <ul>
@@ -146,6 +159,7 @@
         <!-- Recipe 5 -->
         <div class="recipe" id="pie">
             <h2>5. Perfect Pumpkin Pie</h2>
+            <img src="Pumpkin Pie.jpg" alt="Perfect Pumpkin Pie" title="Perfect Pumpkin Pie">
             <p>End your holiday meal with this crowd-pleasing dessert.</p>
             <h3>Ingredients:</h3>
             <ul>
@@ -161,10 +175,15 @@
             <h3>Instructions:</h3>
             <p>Preheat oven to 425°F (220°C). Mix all ingredients. Pour into crust and bake for 15 minutes, then reduce heat to 350°F (175°C) and bake for 40-50 minutes.</p>
         </div>
-        <!-- Placeholder -->
-        <div class="recipe" id="placeholder">
-            <h2>6. [New Recipe Coming Soon]</h2>
-            <p>Stay tuned for more holiday magic!</p>
+        <!-- Recipe 6 -->
+        <div class="recipe" id="Secret Recipe">
+            <h2>6. Secret Recipe</h2>
+            <img src="Secret Recipe.jpg" alt="New Recipe Placeholder" title="New Recipe Placeholder">
+            <p>Decode this Base64 string: Q2xpY2sgaGVyZSB0byBkb3dubG9hZCB0aGlzIGZpbGU6</p>
+            <p>
+                <a href="new-recipe.txt" download="Santa.jpg" style="color: #1b5e20; font-weight: bold; text-decoration: underline;">
+                </a>
+            </p>
         </div>
     </div>
     <footer>
@@ -172,3 +191,4 @@
     </footer>
 </body>
 </html>
+
